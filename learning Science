@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reboot.css">
+    <title >  Learning Science </title>
+  </head>
+  <body>
+
+
+
+                                                                         <!-- navbar -->
+
+
+
+
+   <div class="sticky-top bg-white p-2 shadow " style="--bs-bg-opacity: 0.95">
+     <nav class="navbar navbar-expand-lg navbar-light container ">
+    <div class="container-fluid">
+      <a  class="navbar-brand fs-4" href="#">Learning Science</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#navbarproperty">property</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#navbarBlog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#navbarOurteam">Our team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#navbarcontact">contact</a>
+          </li>
+        </ul>
+        <div class="d-flex  justify-content-lg-end" style="width:185px:;">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Get started
+</button> 
+        </div>
+      </div>
+    </div>
+  </nav>
+   </div>
+
+
+
+                                                                <!-- Modal -->
+
+
+
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="bg-primary p-4 rounded">
+                                      <div class="mb-3">
+              <label for="contactFull name" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="contactFull name" placeholder="hanialeali">
+            </div>
+             <div class="mb-3">
+              <label for="contactEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="hanialeali@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="conactcomment" class="form-label">Your comment</label>
+              <textarea class="form-control" id="conactcomment" rows="6"></textarea>
+            </div>
+            <button class="btn-primary rounded" style="margin-bottom: 47px;">Send</button>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                                                                   <!-- back to top -->
+
+        <a href="#" class="bg-warning text-dark d-flex rounded-circle justify-content-center align-items-center position-fixed opaity-75%" style="width: 54px; height:54px ;right: 10px;bottom: 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+      </svg>
+        </a>
+
+
+
+                                                                     <!-- header -->
+
+
+
+
+   <div class="py-4">
+     <header class="container">
+       <div class="row align-items-center">
+         <div class="col-md-6">
+           <h2 class="display-4 mb-4"> Learning <span style="color:#2cc47e;" class="taxt-warning">Science</span> in a modern style</h2>
+           <p class="lead text-muted mb-4">Science is part of our life. With our help, learn it sweetly and become an expert in your profession</p>
+           <div class="text-center text-md-start">
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Get started
+</button>  
+           </div>
+         </div>
+         <div class="col-md-6">
+           <a  target="_blank"><img src="https://s8.uupload.ir/files/header4_txsj.png" border="0" alt="آپلود عکس" /></a>
+         </div>
+       </div>
+     </header>
+   </div>
+    <!-- property -->
+   <div class="py-4 bg-primary" id="navbarproperty">
+     <section class="container">
+       <h2 class="display-5 text-center mt-5">Property</h2>
+       <p class="text-center lead muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+<div class="row g-4 pb-5">
+  <div class="col-xl-4 col-md-6">
+    <div class="card text-center p-5">
+      <div class="card-body">
+        <svg class="mb-4 text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
+  <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+  <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z"/>
+</svg>
+        <h5 class="card-title mb-2">Site security</h5>
+        <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+  </div>
+</div>
+<div class="col-xl-4 col-md-6">
+    <div class="card text-center p-5">
+      <div class="card-body">
+      <svg class="mb-4 text-primary"  xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-fast-forward-btn" viewBox="0 0 16 16">
+  <path d="M8.79 5.093A.5.5 0 0 0 8 5.5v1.886L4.79 5.093A.5.5 0 0 0 4 5.5v5a.5.5 0 0 0 .79.407L8 8.614V10.5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5Z"/>
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4Z"/>
+</svg>
+        <h5 class="card-title mb-2">Fast in learning</h5>
+        <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+  </div>
+</div>
+<div class="col-xl-4 col-md-6">
+    <div class="card text-center p-5">
+      <div class="card-body">
+        <svg class="mb-4 text-primary" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-database-fill" viewBox="0 0 16 16">
+  <path d="M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223Z"/>
+  <path d="M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+  <path d="M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+  <path d="M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+</svg>
+        <h5 class="card-title mb-2">Database fill</h5>
+        <p class="card-text lead text-muted">With supporting text below as a natural lead-in to additional content.</p>   
+      </div>
+  </div>
+</div>
+     </section>
+   </div>
+
+
+                                                                        <!-- privesy -->
+
+
+
+        <div class="py-4">
+         <section class="container">
+           <div class="row align-items-center">
+             <div class="col-md-6">
+               <h2 class="display-4 mb-4"> Learning <span style="color: #2cc47e;" class="taxt-warning">Science</span> in a modern style</h2>
+               <p class="lead text-muted mb-4">Mathematics is part of our life. With our help, learn it sweetly and become an expert in your profession</p>
+               <div class="text-center text-md-start">
+                 <a href="#"class="btn btn-primary">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+    </svg>
+    read more
+             </a> 
+           </div>
+         </div>
+         <div class="col-md-6">
+           <a  target="_blank"><img src="https://s8.uupload.ir/files/privesy_4sve.png" border="0" alt="آپلود عکس" /></a>
+         </div>
+       </div>
+           </div>
+         </div>
+       </div>
+     </section>
+   </div>
+
+
+
+
+                                                               <!-- Recent posts form our Blog -->
+
+
+
+
+   <div style="background-color: #f9fafb;" class="py-4" id="navbarBlog">
+     <main class="container ">
+      <h2 class="display-5 text-center mt-5">Recent posts form our Blog</h2>
+       <p class="text-center lead muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+</p>
+       <div class="row">
+         <div class="col-lg-4">
+           <div class="card mb-3 shadow">
+  <img src="https://s8.uupload.ir/files/sciencegeneralseason_mainimage_650x366_1_1icr.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title mb-4">Card title</h5>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a spashil in morning for sed do eiusmod tempor incididunt ut labore</p>
+    <a href="#" class="card-text fs-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
+read more
+    </a>
+      </div>
+      </div>
+         </div>
+         <div class="col-lg-4">
+           <div class="card mb-3 shadow">
+  <img src="https://s8.uupload.ir/files/photo4336211094_6lrb.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title mb-4">Card title</h5>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a spashil in morning for</p>
+    <a href="#" class="card-text fs-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
+read more
+    </a>
+      </div>
+      </div>
+         </div>
+         <div class="col-lg-4">
+           <div class="card mb-3 shadow">
+  <img src="https://s8.uupload.ir/files/branches-of-science_wnv9.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title mb-4">Card title</h5>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <p style="Bold" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a spashil in morning for</p>
+    <a href="#" class="card-text fs-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg>
+read more
+    </a>
+      </div>
+      </div>
+         </div>
+       </div>
+     </main>
+   </div>
+
+                                                                          <!-- our team -->
+
+
+   <div  class="py-4" id="navbarOurteam">
+     <main class="container ">
+      <h2 class="display-5 text-center mt-5">Our team</h2>
+       <p class="text-center lead muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+       <div class="row">
+      <div class="col-lg-3 text-center">
+        <img src="https://s8.uupload.ir/files/_39_39_39__2bb8.png" class="img-fluid rounded-circle border p-2 w-75 mb-4">
+        <h2>hani Aleali</h2>
+        <p >Site designer and programmer</p>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+            </a>
+          </li>
+        </ul>
+         </div>
+         <div class="col-lg-3 text-center">
+        <img src="https://s8.uupload.ir/files/l_ig67.png" class="img-fluid rounded-circle border p-2 w-75 mb-4">
+        <h2>Sara Aleali</h2>
+        <p >Site designer and programmer</p>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+            </a>
+          </li>
+        </ul>
+         </div>
+         <div class="col-lg-3 text-center">
+        <img src="https://s8.uupload.ir/files/llll_oyx.png" class="img-fluid rounded-circle border p-2 w-75 mb-4">
+        <h2>Mr.Hadi</h2>
+        <p >Supporter</p>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+            </a>
+          </li>
+        </ul>
+         </div>
+         <div class="col-lg-3 text-center">
+        <img src="https://s8.uupload.ir/files/__aesr.png" class="img-fluid rounded-circle border p-2 w-75 mb-4">
+        <h2>Mr.Zahi</h2>
+        <p >manager</p>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+            </a>
+          </li>
+          <li class="mx-1">
+            <a href="#" class="text-muted2">
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+            </a>
+          </li>
+        </ul>
+         </div>
+       </div>
+     </main>
+   </div>
+
+
+
+
+                                                                  <!-- Frequently asked question -->
+
+
+
+  <div class="py-4 bg-primary">
+     <section class="container">
+       <h2 class="display-5 text-center mt-5">Frequently asked question</h2>
+       <p class="text-center lead muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+    <div class="accordion pb-4" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        What is the use of science in life for us?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        Science has many uses in our jobs and even our lives and we can use it to live better. To invent devices that make people better able to communicate with each other from a distance
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+       Why is science important?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+It contributes to ensuring a longer and healthier life, monitors our health, provides medicine to cure our diseases, alleviates aches and pains, helps us to provide water for our basic needs – including our food, provides energy and makes life more fun, including sports, music, entertainment and the latest ...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+       Why is science called?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        It originally came from the Latin word scientia which meant knowledge, a knowing, expertness, or experience. By the late 14th century, science meant, in English, collective knowledge. But it has consistently carried the meaning of being a socially embedded activity: people seeking, systematising and sharing knowledge.
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  </div>
+
+
+
+                                                                           <!-- contact -->
+
+
+
+
+<div class="py-4" id="navbarcontact">
+  <section class="container">
+     <h2 class="text-center display-5 text-center mt-5">contact</h2>
+       <p class="text-center lead muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    </p>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="row g-4 ">
+                              <div class="col-md-6 ">
+                                <div class="bg-primary rounded p-4">
+                                <svg class="text-muted2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                            <h2 class="mt-5">Address</h2>
+                            <div>Ahvaz-Kianpars</div>
+                            <div>Shahid Beheshti School</div>
+                            </div>
+                              </div>
+                              <div class="col-md-6 ">
+                                <div class="bg-primary rounded p-4">
+                                <svg class="text-muted2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+                            <h2 class="mt-5">Call Us</h2>
+                            <div>0905 815 6716</div>
+                            <div>0916 606 4061</div>
+                            </div>
+                              </div>
+                              <div class="col-md-6 ">
+                                <div class="bg-primary rounded p-4">
+                                <svg class="text-muted2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+</svg>
+                            <h2 class="mt-5">Email Us</h2>
+                            <div>hanialeali1010@gmail.com</div>
+                            <div>alealihani@gmail.com</div>
+                            </div>
+                              </div>
+                              <div class="col-md-6 ">
+                                <div class="bg-primary rounded p-4">
+                                <svg class="text-muted2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
+  <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/>
+  <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/>
+  <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+</svg>
+                            <h2 class="mt-5">Open Hours</h2>
+                            <div>in morning: 6 until the 10 AM</div>
+                            <div>in evining: 16 until the  20 PM</div>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                                    <form class="bg-primary p-4 rounded">
+                                      <div class="mb-3">
+              <label for="contactFull name" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="contactFull name" placeholder="hanialeali">
+            </div>
+             <div class="mb-3">
+              <label for="contactEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="contactEmail" placeholder="hanialeali@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="conactcomment" class="form-label">Your comment</label>
+              <textarea class="form-control" id="conactcomment" rows="6"></textarea>
+            </div>
+            <button class="btn-primary rounded" style="margin-bottom: 47px;">Send</button>
+            </form>
+              </div>  
+          </section>
+        </div>
+
+
+
+                                                                  <!-- footer -->
+
+
+
+<div class="py-4 text-white " style="background-color: #081828;">
+  <footer class="container pt-5">
+    <div class="row py-4">
+      <div class="col-md-3">
+       <h2 class="mb-4">Learning math</h2> 
+       <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-3">
+        <h3 class="border-start border-4 border-primary  ps-3">Pages</h3>
+        <ul class="list-unstyled mt-4">
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">privesy</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Property</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Our team</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="border-start border-4 border-primary  ps-3">More</h3>
+        <ul class="list-unstyled mt-4">
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">privesy</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Property</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Our team</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="border-start border-4 border-primary  ps-3">Posts</h3>
+        <ul class="list-unstyled mt-4">
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">privesy</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Property</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Our team</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none" style="color: #ddd">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+    </div>
+    <hr>
+     <div class="text-center " ><a class="text-decoration-none" href="#">learning Science</a> in a modern style  </div> 
+   </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
